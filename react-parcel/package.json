@@ -1,0 +1,17 @@
+{
+  "name": "react-parcel",
+  "scripts": {
+    "start": "parcel ./src/public/index.html",
+    "build": "parcel build ./src/public/index.html"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "parcel": "^2.0.1",
+    "parcel-bundler": "^1.12.5"
+  }
+}
